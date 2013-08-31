@@ -11,7 +11,7 @@ import java.io.IOException;
  * @author marcin
  */
 public interface BootInterface {
-    public void sendByte(int _b);
+    public void sendByte(int _b) throws IOException;
     public void sendBuf(byte[] _b) throws IOException;
     public int recvByte() throws IOException;
     public boolean waitForACK() throws IOException;
