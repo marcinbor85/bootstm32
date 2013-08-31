@@ -64,7 +64,7 @@ public class BootStm32 {
     public static void printHelp() {
         System.out.println();
         System.out.println("STM32 Family USART Bootloader");
-        System.out.println("Version 1.0.0, 2013.08.17");
+        System.out.println("Version 1.0.1, 2013.08.31");
         System.out.println("Marcin Borowicz, email: marcin_bor@wp.pl");
         System.out.println();
         System.out.println("Parameters (the order is not important):");
@@ -88,6 +88,10 @@ public class BootStm32 {
         System.out.println("TODO:");
         System.out.println(" 1. Erase selected sectors");
         System.out.println(" 2. Read from device to file");
+        System.out.println(" 3. Selectable timeouts");
+        System.out.println(" 4. Longer connection time");
+        System.out.println(" 5. End line chars windows/linux");
+        System.out.println(" 6. Write multiple files at once");
         System.out.println();
         
         System.exit(-1);
